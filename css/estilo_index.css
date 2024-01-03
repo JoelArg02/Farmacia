@@ -12,6 +12,6 @@
 	object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
 }
 
-.card{ 
+.card-group{ 
 	margin-top: 20px;
 }
