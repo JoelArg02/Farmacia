@@ -1,17 +1,30 @@
 .custom-container {
-	width: 50%; /* Modifica el ancho según tu preferencia */
-	height: 100px; /* Modifica la altura según tu preferencia */
-	margin: 0 auto; /* Centra el contenedor horizontalmente */
-	overflow: hidden; /* Evita desbordamiento de contenido */
+	width: 50%;
+	/* Modifica el ancho según tu preferencia */
+	height: 100px;
+	/* Modifica la altura según tu preferencia */
+	margin: 0 auto;
+	/* Centra el contenedor horizontalmente */
+	overflow: hidden;
+	/* Evita desbordamiento de contenido */
 }
 
 /* Estilo para las imágenes dentro del carrusel (ajustado al 100% del ancho y altura del contenedor) */
 .carousel-item img {
 	width: 50%;
 	height: 50%;
-	object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+	object-fit: cover;
+	/* Ajusta la imagen para cubrir completamente el contenedor */
 }
 
+<<<<<<< HEAD
 .card-group{ 
+=======
+.card {
+>>>>>>> b345500da1ee570d874f15aebaec22fddb10ee7a
 	margin-top: 20px;
+}
+
+.footer {
+	margin-top: 50px;
 }
