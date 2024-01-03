@@ -11,3 +11,7 @@
 	height: 50%;
 	object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
 }
+
+.card{ 
+	margin-top: 20px;
+}
