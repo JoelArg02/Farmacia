@@ -17,14 +17,10 @@
 	/* Ajusta la imagen para cubrir completamente el contenedor */
 }
 
-<<<<<<< HEAD
-.card-group{ 
-=======
 .card {
->>>>>>> b345500da1ee570d874f15aebaec22fddb10ee7a
 	margin-top: 20px;
 }
 
 .footer {
-	margin-top: 50px;
+	padding: 20px;
 }
