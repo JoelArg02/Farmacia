@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedidos</title>
+    <link rel="stylesheet" href="../css/pedidos.css">
+</head>
+<body>
+
+    <form action="procesar_pedido.php" method="post">
+        <h2>Formulario de Pedidos</h2>
+
+        <label for="producto">Producto:</label>
+        <select name="producto" id="producto" required>
+            <option value="medicamento">Medicamento</option>
+            <option value="cosmetico">Cosmético</option>
+            <option value="higiene">Productos de Higiene</option>
+        </select>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" required>
+
+        <label for="direccion">Dirección de entrega:</label>
+        <input type="text" name="direccion" id="direccion" required>
+
+        <button type="submit">Enviar Pedido</button>
+    </form>
+
+</body>
+</html>
