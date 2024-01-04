@@ -1,0 +1,115 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vichy Liftactiv Specialist Serum B3 Antimanchas",
+        "descripcion": "Serum de Vichy con eficacia antiedad global: corrige las manchas, reduce las arrugas y unifica el tono de la piel. Contiene 30 ml.",
+        "categoria": "Cosmetica Facial",
+        "imagen": "https://www.farmaciasdirect.com/44717-medium_default/liftactiv-specialist-serum-b3-antimanchas-30-ml.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "La Roche Posay Hyalu B5 Tratamiento Antiarrugas 40 Ml",
+        "descripcion": "La Roche Posay Hyalu B5 Tratamiento Antiarrugas ayuda a reparar la piel mediante una hidratación profunda en donde la piel recupera de inmediato su elasticidad, reduciendo y suavizando las arrugas. Su fórmula rellena y repara la barrera cutánea.",
+        "categoria": "Cosmetica Facial",
+        "imagen": "https://www.farmaciasdirect.com/40331-medium_default/la-roche-posay-hyalu-b5-tratamiento-antiarrugas-40-ml.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Vichy Liftactiv Collagen Crema Día Antiarrugas, 50 Ml",
+        "descripcion": "Crema de día que con acción antiedad gracias a sus ingredientes, que combaten la flacidez y las arrugas. Contiene 50 ml.",
+        "categoria": "Cosmetica Facial",
+        "imagen": "https://www.farmaciasdirect.com/91814-medium_default/vichy-liftactiv-collagen-specialist-50-ml.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "CeraVe Crema Reparadora Contorno De Ojos, 14 Ml",
+        "descripcion": "Contorno de ojos que repara y reduce las ojeras y bolsas en todo tipo de pieles. Contiene 14 ml.",
+        "categoria": "Cosmetica Facial",
+        "imagen": "https://www.farmaciasdirect.com/39538-medium_default/cerave-contorno-de-ojos-14-ml.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Vichy Dermablend Covermatte Polvo Compacto 55 Bronze",
+        "descripcion": "Polvo compacto de alta cobertura que cubre las imperfecciones e iguala la textura de la piel, para conseguir una tez natural y con un aspecto uniforme.",
+        "categoria": "Maquillaje",
+        "imagen": "https://www.farmaciasdirect.com/24812-medium_default/vichy-dermablend-covermatte-polvo-compacto-55-fd.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Vichy Dermablend Fluido Corrector Nº 55 Bronze 30 Ml",
+        "descripcion": "Maquillaje corrector y alisador para una cobertura perfecta durante 16 horas y una textura con sensación piel desnuda. Contiene 30 ml.",
+        "categoria": "Maquillaje",
+        "imagen": "https://www.farmaciasdirect.com/39666-medium_default/vichy-dermablend-fluido-corrector-n-55-bronze.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Toleriane Maquillaje Fluido Color Caramelo 30 Ml",
+        "descripcion": "Toleriane Maquillaje Fluido Color Caramelo tiene una alta cobertura que ayuda a disimular imperfecciones en el rostro. Se puede usar como base de maquillaje para fijarlo durante más tiempo. Hidrata profundamente y protege el cutis contra el daño oxidativo.",
+        "categoria": "Maquillaje",
+        "imagen": "https://www.farmaciasdirect.com/40383-medium_default/toleriane-maquillaje-fluido-color-caramelo.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Avene Couvrance Stick Corrector Amarillo 3,5 Gr",
+        "descripcion": "Avene Couvrance stick corrector amarillo en presentación de 3,5 gr formulado para ayudar a neutralizar las imperfecciones severas en el rostro. El extremo de la barra es aplanado para facilitar su aplicación, incluye protección contra los rayos UV, es resistente al agua.",
+        "categoria": "Maquillaje",
+        "imagen": "https://www.farmaciasdirect.com/52498-medium_default/avene-stick-corrector-amarillo-35-g.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Labeau Eau De Toilette Rose 100 Ml",
+        "descripcion": "El agua de perfume Eau de Toilette Rose de Labeau es un producto cosmético que aporta una fragancia femenina, la cual aprovecha ingredientes primaverales para dar un aroma floral muy fresco con tonos cítricos, dulces y a madera.",
+        "categoria": "Perfumes y Colonias",
+        "imagen": "https://www.farmaciasdirect.com/20922-medium_default/labeau-edt-rose-100ml.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Nuxe Body Agua Refrescante Perfumada 100 Ml",
+        "descripcion": "Agua refrescante perfumada que relaja y refresca.",
+        "categoria": "Perfumes y Colonias",
+        "imagen": "https://www.farmaciasdirect.com/6605-medium_default/nuxe-body-eau-relajante-perfumada-100-ml.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "IAP PHARMA Perfume Pour Femme N 2 150 Ml",
+        "descripcion": "Iap Pharma perfume número 2 es una fragancia para mujer. Tiene notas cítricas y florares que son muy agradables y duraderas. Este cosmético dura mucho tiempo gracias a que cuenta con tres diferentes olores que aparecen a lo largo del día.",
+        "categoria": "Perfumes y Colonias",
+        "imagen": "https://www.farmaciasdirect.com/21616-medium_default/iap-pharma-pour-femme-n-2-150-ml.jpg"
+    },
+    {
+        "id": 12,
+        "nombre": "Betres On Ambientador Mikado Manzana Y Canela 50 Ml",
+        "descripcion": "Betres On Ambientador Mikado es un accesorio para el hogar que deja un suave y agradable aroma a manzana y canela. El producto funciona mediante la absorción del perfume por medio de unos palillos que lo liberan poco a poco al ambiente.",
+        "categoria": "Perfumes y Colonias",
+        "imagen": "https://www.farmaciasdirect.com/44812-medium_default/betres-on-ambientador-mikado-manzana-y-canela-50-ml.jpg"
+    },
+    {
+        "id": 13,
+        "nombre": "WELEDA Avena Acondicionador Reparador Cabello 200 Ml",
+        "descripcion": "WELEDA Avena acondicionador reparador de cabello es un producto de cosmética ecológica que ayuda a fortalecer el cabello, dejándolo más suave y brillante. Su principal beneficio es que es totalmente natural, para evitar el deterioro que causan los químicos.",
+        "categoria": "Cabello",
+        "imagen": "https://www.farmaciasdirect.com/22111-medium_default/weleda-avena-acondicionador-reparador-cabello-200ml.jpg"
+    },
+    {
+        "id": 14,
+        "nombre": "Cystiphane Biorga Champú Intensivo Ds 200 Ml",
+        "descripcion": "Con su exclusivo complejo antimicótico, la amplia acción del Champú Intensivo Anti Caspa Biorga Cystiphane Anti-Caspa combate eficazmente la caspa severa combinada con un cuero cabelludo que pica: elimina la caspa, evita la reaparición de la caspa y mejora la salud del equilibrio fúngico natural del cuero cabelludo y alivia la irritación y la picazón.",
+        "categoria": "Cabello",
+        "imagen": "https://www.farmaciasdirect.com/61474-medium_default/cystiphane-biorga-champu-intensivo-ds-bailleul-b-200-ml.jpg"
+    },
+    {
+        "id": 15,
+        "nombre": "Corpore Sano Crema Colorante Henna Chocolate 80Ml.",
+        "descripcion": "Corpore Sano Crema Colorante Henna Chocolate es una crema de coloración para el cabello que proporciona un tono chocolate intenso y duradero. Su fórmula natural a base de henna cuida y protege el cabello, dejándolo suave y brillante.",
+        "categoria": "Cabello",
+        "imagen": "https://www.farmaciasdirect.com/104195-medium_default/corpore-sano-crema-colorante-henna-chocolate-80ml.jpg"
+    },
+    {
+        "id": 16,
+        "nombre": "APIVITA Champú Tonificante Mujer Para Caida Cabello Con Espino Amarillo & Laurel 250 Ml",
+        "descripcion": "Es un producto formulado para fortalecer la hebra capilar y evitar su caída, a la vez que hidrata, nutre, aporta brillo y volumen. Contiene 250 ml.",
+        "categoria": "Cabello",
+        "imagen": "https://www.farmaciasdirect.com/43768-medium_default/apivita-champu-tonificante-mujer-caida-cabello-250-ml.jpg"
+    
+    }
+]

@@ -1,0 +1,79 @@
+[
+	{
+        "id": 1,
+        "nombre": "Dispensador de Agua",
+        "descripcion": "Dispensador de agua para peros y gatos Medidas: 20,2 x 29,2 x h 28,8 cm - 3 L",
+        "categoria": "Comederos y Bebederos",
+        "imagen": "https://www.farmaciasdirect.com/71248-medium_default/ferplast-dispensador-de-agua-nadir-3l-colores-surtidos.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Comedero De Plastico Party",
+        "descripcion": "Bol de plástico con topes anti deslizantes y una útil asa Medidas: 32 x 18 x h 6 cm - 1,2 L",
+        "categoria": "Comederos y Bebederos",
+        "imagen": "https://www.farmaciasdirect.com/71011-medium_default/ferplast-comedero-de-plastico-party-18-12l-32x18x6-cm.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Transportador de Animales",
+        "descripcion": "Transportín para perros pequeños y gatos. Varios colores y tamaños. Medidas: 32,5 x 48 x h 29 cm",
+        "categoria": "Transportadores y bolsos",
+        "imagen": "https://www.farmaciasdirect.com/71874-medium_default/ferplast-transportin-atlas-10-open.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Correa Flippy Tech",
+        "descripcion": "Correa extensible Talla L Medidas: 16 x 4 x h 12 cm Color Negro",
+        "categoria": "Correas",
+        "imagen": "https://www.farmaciasdirect.com/74627-medium_default/ferplast-correa-flippy-tech-cinta-grande-negro.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Cojín",
+        "descripcion": "Cojín de doble cara para perros y gatos. Lado de tela efecto tweed y lado de terciopelo. Medidas: 55 x 36 cm Color Azul",
+        "categoria": "Camas",
+        "imagen": "https://www.farmaciasdirect.com/73494-medium_default/ferplast-stuart-55-4-cus-azul.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Baño para gatos",
+        "descripcion": "Arenero Abierto Para Gatos Nip 10 Medidas: 46.5 x 35.5 x 12 cm",
+        "categoria": "Aseo Gatos",
+        "imagen": "https://www.farmaciasdirect.com/70461-medium_default/ferplast-aseo-gatos-nip.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Advantix",
+        "descripcion": "Eficaz antiparasitario externo para perros que elimina y repele pulgas, garrapatas y piojos masticadores.",
+        "categoria": "Anti-Parasitos",
+        "imagen": "https://www.farmaciasdirect.com/121209-medium_default/advantix-4pipetas-04-ml-0-4-kg.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Ferplast Toallitas Genico Fresh",
+        "descripcion": "Toallitas perfumadas para perros y gatos. 40 piezas. Medidas: 20 x h 30 cm",
+        "categoria": "Toallitas",
+        "imagen": "https://www.farmaciasdirect.com/71866-medium_default/ferplast-toallitas-genico-fresh-perro-y-gato-marine-40-unidads.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Ferplast Bolsa Higienica",
+        "descripcion": "Bolsas higiénicas para Maxi Bella Medidas: 70 x h 40 cm",
+        "categoria": "Bolsas y dispensadores",
+        "imagen": "https://www.farmaciasdirect.com/70491-medium_default/ferplast-bolsa-higienica.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Ferplast Relax Soft Cushion",
+        "descripcion": "Cojín para perros y gatos. De suave piel sintética. Medidas: 65 x 42 cm Color Negro",
+        "categoria": "Camas",
+        "imagen": "https://www.farmaciasdirect.com/73446-medium_default/ferplast-relax-65-6-soft-cushion-negro.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Ferplast Empapadores Genico Mediano",
+        "descripcion": "Colchones para perro con adhesivo en la parte inferior Medidas: 60 x h 60 cm",
+        "categoria": "Empapadores",
+        "imagen": "https://www.farmaciasdirect.com/71274-medium_default/ferplast-empapadores-genico-mediano-absorpads-10-unidads.jpg"
+    }
+]
