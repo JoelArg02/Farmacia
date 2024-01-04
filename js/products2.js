@@ -1,5 +1,5 @@
 function cargarProductos() {
-  return fetch("data/products.json")
+  return fetch("data/products2.json")
       .then((response) => response.json())
       .then((data) => {
           productos = data;

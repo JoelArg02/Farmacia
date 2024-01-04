@@ -1,5 +1,7 @@
 let productos = [];
 
+let productos2 = [];
+let productos3=[];
 fetch("html/nav-bar.html")
   .then((response) => response.text())
   .then((data) => {
