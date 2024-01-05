@@ -1,34 +1,73 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Pedidos</title>
-    <link rel="stylesheet" href="../css/pedidos.css">
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/pedidos.css">
+<title>Pedidos en Linea</title>
 </head>
+
 <body>
+<div class="card">
+  <div class="card-header">
+    Pedidos en Linea
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Tratamiento Sesderma</h5>
+    <p class="card-text">30% de descuento para cualquier producto SESDERMA durante esta semana</p>
+	 <p><img src="../img/promo4.png" class="card-img-top" alt="..."></p> 
+    <a href="#" class="btn btn-primary">Ver Promo</a>
+  </div>
+</div>
+<form action="procesar_pedido.php" method="post">
+    <h2>Formulario de Pedidos</h2>
 
-    <form action="procesar_pedido.php" method="post">
-        <h2>Formulario de Pedidos</h2>
+    <label for="producto">Producto:</label>
+    <select name="producto" id="producto" required>
+        <option value="medicamento">Medicamento</option>
+        <option value="cosmetico">Cosmético</option>
+        <option value="higiene">Productos de Higiene</option>
+    </select>
 
-        <label for="producto">Producto:</label>
-        <select name="producto" id="producto" required>
-            <option value="medicamento">Medicamento</option>
-            <option value="cosmetico">Cosmético</option>
-            <option value="higiene">Productos de Higiene</option>
-        </select>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
 
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" required>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" name="cantidad" id="cantidad" required>
 
-        <label for="cantidad">Cantidad:</label>
-        <input type="number" name="cantidad" id="cantidad" required>
+    <label for="direccion">Dirección de entrega:</label>
+    <input type="text" name="direccion" id="direccion" required>
 
-        <label for="direccion">Dirección de entrega:</label>
-        <input type="text" name="direccion" id="direccion" required>
-
-        <button type="submit">Enviar Pedido</button>
-    </form>
-
+    <button type="submit">Enviar Pedido</button>
+</form>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../img/medicamento.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Medicamentos</h5>
+		  <p><a href="#" class="btn btn-primary">Ver </a></p>  
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/cosmeticos.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cosmeticos</h5>
+		<p><a href="#" class="btn btn-primary">Ver </a></p>  
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../img/promo1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Productos de Higiene</h5>
+		<p><a href="#" class="btn btn-primary">Ver </a></p>  
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
