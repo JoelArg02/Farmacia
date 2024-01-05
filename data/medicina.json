@@ -4,112 +4,112 @@
         "nombre": "Paracetamol",
         "descripcion": "Analgésico y antipirético utilizado para aliviar dolores leves y reducir la fiebre.",
         "categoria": "Analgésicos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://statics-cuidateplus.marca.com/cms/styles/ratio_1_1/azblob/2022-09/blister-paracetamol.jpg.webp?itok=iBdn6prc"
     },
     {
         "id": 2,
         "nombre": "Ibuprofeno",
         "descripcion": "Antiinflamatorio no esteroideo para tratar el dolor, la fiebre y la inflamación.",
         "categoria": "Antiinflamatorios",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/IBUPROFENO-600MG-CAJA-POR-50-TABLETAS-CON-BLISTER.jpg"
     },
     {
         "id": 3,
         "nombre": "Aspirina",
         "descripcion": "Utilizada para tratar el dolor, la fiebre y la inflamación. También previene coágulos sanguíneos.",
         "categoria": "Analgésicos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.fybeca.com/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_FybecaEcuador/default/dw3322136e/images/large/213964_1.jpg?sw=1000&sh=1000"
     },
     {
         "id": 4,
         "nombre": "Amoxicilina",
         "descripcion": "Antibiótico del grupo de las penicilinas para tratar una variedad de infecciones bacterianas.",
         "categoria": "Antibióticos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/AMOXICILINA-500MG-CAJA-POR-50-CAPSULAS-CON-BLISTER.jpg"
     },
     {
         "id": 5,
         "nombre": "Loratadina",
         "descripcion": "Antihistamínico utilizado para aliviar los síntomas de las alergias, como la fiebre del heno y la urticaria.",
         "categoria": "Antialérgicos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/LORATADINA-10MG-CAJA-POR-10-TABLETAS-CON-BLISTER.jpg"
     },
     {
         "id": 6,
         "nombre": "Metformina",
         "descripcion": "Medicamento para controlar el nivel alto de azúcar en la sangre en personas con diabetes tipo 2.",
         "categoria": "Antidiabéticos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.kuyuna.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-19-at-15.23.36.jpeg"
     },
     {
         "id": 7,
         "nombre": "Omeprazol",
         "descripcion": "Inhibidor de la bomba de protones utilizado para tratar ciertas condiciones estomacales y esofágicas.",
         "categoria": "Gastrointestinales",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/OMEPRAZOL-20MG-CAJA-POR-30-CAPSULAS-CON-BLISTER.png"
     },
     {
         "id": 8,
         "nombre": "Losartán",
         "descripcion": "Medicamento utilizado para tratar la alta presión sanguínea (hipertensión) y para ayudar a proteger los riñones.",
         "categoria": "Antihipertensivos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/LOSART%C2%B5N-POT%C2%B5SICO-50MG-CAJA-POR-30-TABLETAS-INCLINADO.jpg"
     },
     {
         "id": 9,
         "nombre": "Simvastatina",
         "descripcion": "Utilizada para bajar los niveles de colesterol y triglicéridos en la sangre.",
         "categoria": "Hipolipemiantes",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.fybeca.com/on/demandware.static/-/Sites-masterCatalog_FybecaEcuador/default/dw35bb48ba/images/large/129686-simvastatina-la-sante-40-mg-unidad.jpg"
     },
     {
         "id": 10,
         "nombre": "Acetaminofén",
         "descripcion": "Medicamento utilizado para tratar el dolor y la fiebre. Es habitualmente usado para alivio del dolor leve.",
         "categoria": "Analgésicos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.pmfarma.com/noticias/noticias/49665/image/1.jpg"
     },
     {
         "id": 11,
         "nombre": "Diazepam",
         "descripcion": "Pertenece a una clase de medicamentos llamados benzodiazepinas y se utiliza para tratar la ansiedad y los trastornos convulsivos.",
         "categoria": "Ansiolíticos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://prixz.com/salud/wp-content/uploads/2020/04/diazepan-que-es-y-para-que-sirve.png"
     },
     {
         "id": 12,
         "nombre": "Naproxeno",
         "descripcion": "Antiinflamatorio no esteroideo utilizado para aliviar el dolor de diversas condiciones como dolores de cabeza, dolor muscular, tendinitis.",
         "categoria": "Antiinflamatorios",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/NAPROXENO-500MG-CAJA-POR-10-TABLETAS-CON-BLISTER.jpg"
     },
     {
         "id": 13,
         "nombre": "Prednisona",
         "descripcion": "Corticosteroide utilizado para tratar una serie de enfermedades, incluyendo trastornos inmunológicos y alérgicos.",
         "categoria": "Corticosteroides",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://quetenx.com.ec/pub/media/catalog/product/cache/cf3f2243ef4940fd5c66f2ff035145ac/p/r/prednisona_20.jpeg"
     },
     {
         "id": 14,
         "nombre": "Sertralina",
         "descripcion": "Antidepresivo del grupo de los inhibidores selectivos de la recaptación de serotonina utilizado para tratar la depresión y el trastorno de ansiedad.",
         "categoria": "Antidepresivos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/SERTRALINA-50MG-CAJA-POR-10-TABLETAS-CON-BLISTER.jpg"
     },
     {
         "id": 15,
         "nombre": "Salbutamol",
         "descripcion": "Broncodilatador utilizado para tratar el asma y otras enfermedades de las vías respiratorias.",
         "categoria": "Broncodilatadores",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://lh3.googleusercontent.com/proxy/Gjqt8ConFvPAcWAnR20OsBQIA_wuFMUjpPz7layOQYl4Yi90knxfQOz3kE2k0bfVEiOKIcaOnfIgH1Rtduk-W106BJfo6IQyeSiShTkx9gyHJnsh-cjQZFY05h0yuEc"
     },
     {
         "id": 16,
         "nombre": "Ciprofloxacina",
         "descripcion": "Antibiótico del grupo de las fluoroquinolonas utilizado para tratar infecciones bacterianas.",
         "categoria": "Antibióticos",
-        "imagen": "https://via.placeholder.com/150"
+        "imagen": "https://www.lasanteca.com/userfiles/2018/12/CIPROFLOXACINO-500MG-CAJA-POR-10-TABLETAS-CON-BLISTER.jpg"
     
     }
 ]
