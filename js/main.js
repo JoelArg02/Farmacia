@@ -41,7 +41,13 @@ fetch("pages/components/carrusel.html")
     document.getElementById("promociones-placeholder").innerHTML = data;
   })
   .catch((error) => console.error("Error al cargar las promociones:", error));
-  
+
+  fetch("pages/components/metodo_pago.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("pedidos-placeholder").innerHTML = data;
+  })
+  .catch((error) => console.error("Error al cargar los pedidos:", error));
 
 document.addEventListener("DOMContentLoaded", () => {
   // Cargar la página inicial cuando se inicie la aplicación
