@@ -1,30 +1,71 @@
+let productos = []; // Declaración global de la variable productos
+
 function cargarProductos() {
-  return fetch("data/products.json")
-      .then((response) => response.json())
-      .then((data) => {
-          productos = data;
-          actualizarCategorias(); 
-      })
-      .catch((error) => console.error("Error al cargar productos:", error));
+  Promise.all([
+      fetch("data/medicina.json").then(response => response.json()),
+      fetch("data/mascotas.json").then(response => response.json()),
+      fetch("data/cosmeticos.json").then(response => response.json()),
+  ])
+  .then(([medicinaData, mascotasData, cosmeticaData]) => {
+      // Agrega el campo 'tipo' a cada producto
+      const medicinaConTipo = medicinaData.map(producto => ({ ...producto, tipo: 'medicina' }));
+      const mascotasConTipo = mascotasData.map(producto => ({ ...producto, tipo: 'veterinaria' }));
+      const cosmeticosConTipo = cosmeticaData.map(producto => ({ ...producto, tipo: 'cosmetico' }));
+
+      productos = [...medicinaConTipo, ...mascotasConTipo, ...cosmeticosConTipo];
+      cargarCategorias(); // Llamada a cargarCategorias después de cargar los productos
+  })
+  .catch(error => console.error("Error al cargar productos:", error));
+}
+
+
+function cargarCategorias() {
+  const categorias = new Set();
+  productos.forEach((producto) => categorias.add(producto.categoria));
+
+  actualizarCategorias(categorias); // Asegúrate de que esta función maneje correctamente las categorías
 }
 
 function actualizarCategorias() {
-  const categorias = new Set();
-  productos.forEach(producto => categorias.add(producto.categoria));
+  const categoriasMedicina = new Set();
+  const categoriasVeterinaria = new Set();
+  const categoriasCosmeticos = new Set();
 
-  const menuCategorias = document.querySelector('.dropdown-menu');
-  menuCategorias.innerHTML = '';
+  productos.forEach((producto) => {
+    switch (producto.tipo) {
+      case "medicina":
+        categoriasMedicina.add(producto.categoria);
+        break;
+      case "veterinaria":
+        categoriasVeterinaria.add(producto.categoria);
+        break;
+      case "cosmetico":
+        categoriasCosmeticos.add(producto.categoria);
+        break;
+    }
+  });
 
-  categorias.forEach(categoria => {
-      const itemCategoria = document.createElement('li');
-      const enlaceCategoria = document.createElement('a');
-      enlaceCategoria.className = 'dropdown-item';
-      enlaceCategoria.href = '#';
-      enlaceCategoria.textContent = categoria;
-      itemCategoria.appendChild(enlaceCategoria);
-      menuCategorias.appendChild(itemCategoria);
+  actualizarMenuDesplegable("menu-medicina", categoriasMedicina);
+  actualizarMenuDesplegable("menu-veterinaria", categoriasVeterinaria);
+  actualizarMenuDesplegable("menu-cosmeticos", categoriasCosmeticos);
+}
+
+function actualizarMenuDesplegable(idMenu, categorias) {
+  const menuCategorias = document.querySelector(`#${idMenu}`);
+  menuCategorias.innerHTML = "";
+
+  categorias.forEach((categoria) => {
+    const itemCategoria = document.createElement("li");
+    const enlaceCategoria = document.createElement("a");
+    enlaceCategoria.className = "dropdown-item";
+    enlaceCategoria.href = "#";
+    enlaceCategoria.textContent = categoria;
+
+    itemCategoria.appendChild(enlaceCategoria);
+    menuCategorias.appendChild(itemCategoria);
   });
 }
+
 
 function mostrarProductos(productos) {
   const contenedorProductos = document.getElementById("productos");
@@ -125,27 +166,5 @@ function cerrarPopup() {
   document.getElementById("popupProducto").style.display = "none";
 }
 
-function cargarCategorias() {
-  const categorias = new Set();
-  productos.forEach((producto) => categorias.add(producto.categoria));
-
-  actualizarMenuCategorias(categorias);
-}
-
-function actualizarMenuCategorias(categorias) {
-  const menuCategorias = document.querySelector(".dropdown-menu");
-  menuCategorias.innerHTML = ""; 
-
-  categorias.forEach((categoria) => {
-    const itemCategoria = document.createElement("li");
-    const enlaceCategoria = document.createElement("a");
-    enlaceCategoria.className = "dropdown-item";
-    enlaceCategoria.href = "#";
-    enlaceCategoria.textContent = categoria;
-
-    itemCategoria.appendChild(enlaceCategoria);
-    menuCategorias.appendChild(itemCategoria);
-  });
-}
 
 cargarProductos();
