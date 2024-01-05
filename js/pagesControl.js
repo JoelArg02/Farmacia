@@ -1,41 +1,76 @@
 function openPromociones() {
-  // Ocultar carrusel y cards
   var carrusel = document.getElementById("carrusel");
   var cards = document.getElementById("cards");
+  var methodPayment = document.getElementById("payment");
+  var pedidos = document.getElementById("pedidos");
 
-  if (carrusel && cards) {
+
+  if (carrusel && cards && methodPayment) {
     carrusel.style.display = "none";
     cards.style.display = "none";
+    methodPayment.style.display = "none";
+    pedidos.style.display = "none";	
   }
 
-  // Mostrar el elemento promociones
   var promociones = document.getElementById("promociones");
   if (promociones) {
-    promociones.style.display = "block"; // o "inline" o cualquier otro valor adecuado
+    promociones.style.display = "block";
   }
-
-  // Puedes agregar tu código adicional para las promociones aquí
-  console.log(
-    "La función openPromociones se ha llamado y ha ocultado los elementos carrusel y cards, y mostrado el elemento promociones."
-  );
 }
 
 function closePromociones() {
-  // Mostrar carrusel y cards
   var carrusel = document.getElementById("carrusel");
   var cards = document.getElementById("cards");
+  var methodPayment = document.getElementById("payment");
+  var pedidos = document.getElementById("pedidos");
 
-  if (carrusel && cards) {
-    carrusel.style.display = "block"; // o el valor original que tenían
-    cards.style.display = "block"; // o el valor original que tenían
+  if (carrusel && cards && methodPayment) {
+    carrusel.style.display = "block";
+    cards.style.display = "block";
+    methodPayment.style.display = "none";
+    pedidos.style.display = "none";
   }
 
-  // Ocultar el elemento promociones
   var promociones = document.getElementById("promociones");
   if (promociones) {
     promociones.style.display = "none";
   }
+}
 
-  // Puedes agregar cualquier código adicional necesario aquí
-  console.log("La función closePromociones se ha llamado y ha revertido los cambios realizados por openPromociones.");
+function openPedidos() {
+  var openPedidos = document.getElementById("pedidos");
+  var carrusel = document.getElementById("carrusel");
+  var cards = document.getElementById("cards");
+  var methodPayment = document.getElementById("payment");
+  var promociones = document.getElementById("promociones");
+
+  if (carrusel && cards && methodPayment) {
+    carrusel.style.display = "none";
+    cards.style.display = "none";
+    methodPayment.style.display = "none";
+    promociones.style.display = "none";
+  }
+
+  if (openPedidos) {
+    openPedidos.style.display = "block";
+  }
+}
+
+function openPayment(){
+  var openPayment = document.getElementById("payment");
+  var carrusel = document.getElementById("carrusel");
+  var cards = document.getElementById("cards");
+  var promociones = document.getElementById("promociones");
+  var pedidos = document.getElementById("pedidos");
+
+  if (carrusel && cards && promociones) {
+    carrusel.style.display = "none";
+    cards.style.display = "none";
+    promociones.style.display = "none";
+    pedidos.style.display = "none";
+  }
+
+  if (openPayment) {
+    openPayment.style.display = "block";
+  }
 }

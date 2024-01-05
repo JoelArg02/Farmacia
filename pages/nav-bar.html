@@ -9,11 +9,11 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" id="navbar-promociones-link" href="#promociones"
-            onclick="openPromociones()">PROMOCIONES</a>
+            onclick="openPromociones()">Promociones</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="pedidos.html">Pedidos en linea</a>
+          <a class="nav-link" onclick="openPedidos()" href="#pedidos">Pedidos en linea</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,11 +38,6 @@
           <ul class="dropdown-menu" id="menu-cosmeticos">
           </ul>
         </li>
-
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar producto..." aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
 
         <div id="resultados-busqueda"></div>
     </div>

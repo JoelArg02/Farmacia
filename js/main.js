@@ -35,17 +35,30 @@ fetch("pages/components/carrusel.html")
   })
   .catch((error) => console.error("Error al cargar el carousel:", error));
 
-  fetch("pages/components/promociones.html")
+fetch("pages/components/promociones.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("promociones-placeholder").innerHTML = data;
   })
   .catch((error) => console.error("Error al cargar las promociones:", error));
-  
+
+fetch("pages/components/methodPayment.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("methodPayment-placeholder").innerHTML = data;
+  })
+  .catch((error) =>
+    console.error("Error al cargar el método de pago:", error)
+  );
+
+fetch("pages/components/pedidos.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("pedidos-placeholder").innerHTML = data;
+  })
+  .catch((error) => console.error("Error al cargar los pedidos:", error));
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Cargar la página inicial cuando se inicie la aplicación
   cargarProductos();
   actualizarCategorias();
-
 });
